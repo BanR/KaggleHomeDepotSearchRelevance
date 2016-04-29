@@ -1,3 +1,3 @@
 # KaggleHomeDepotSearchRelevance
 
-A datascience competition hosted by HomeDepot on Kaggle to come up with algorithms that can accurately predict the relevance of search results.
+https://www.kaggle.com/c/home-depot-product-search-relevance
