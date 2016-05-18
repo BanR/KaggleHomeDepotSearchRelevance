@@ -17,7 +17,7 @@ import xgboost as xgb
 
 
 
-path='/Users/8199/Documents/ml/Kaggle/Kaggle_HomeDepot/input/'
+path='/home/kaggle/'
 
 df_all = pd.read_csv(path+'df_all_new_feat2.csv', encoding="ISO-8859-1")
 
