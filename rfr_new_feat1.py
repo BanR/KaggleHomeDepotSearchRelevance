@@ -16,7 +16,7 @@ import random
 random.seed(2020)
 from sklearn.ensemble import RandomForestRegressor
 
-_path = '/home/rajdeep.banerjee/test/'#'/opt/PaymentGatewayRouting/misc/K_HomeDepotSrchRel/'
+_path = '/home/kaggle/'
 
 def fmean_squared_error(ground_truth, predictions):
     fmean_squared_error_ = mean_squared_error(ground_truth, predictions)**0.5
