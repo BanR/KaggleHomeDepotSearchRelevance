@@ -24,10 +24,10 @@ random.seed(2016)
 
 
 import gensim
-model = gensim.models.Word2Vec.load_word2vec_format('/home/rajdeep.banerjee/GoogleNews-vectors-negative300.bin.gz', binary=True)
+model = gensim.models.Word2Vec.load_word2vec_format('/home/GoogleNews-vectors-negative300.bin.gz', binary=True)
 print 'Model loaded'
 
-_path = '/home/rajdeep.banerjee/test/'#/Users/8199/Documents/ml/Kaggle/Kaggle_HomeDepot/'  #'/opt/PaymentGatewayRouting/misc/K_HomeDepotSrchRel/'
+_path = '/home/kaggle/'
 df_train = pd.read_csv(_path+'/input/train.csv', encoding="ISO-8859-1")
 df_test = pd.read_csv(_path+'/input/test.csv', encoding="ISO-8859-1")
 df_pro_desc = pd.read_csv(_path+'/input/product_descriptions.csv',encoding="ISO-8859-1")
